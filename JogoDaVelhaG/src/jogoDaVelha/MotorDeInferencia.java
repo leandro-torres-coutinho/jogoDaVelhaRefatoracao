@@ -11,7 +11,7 @@ public class MotorDeInferencia {
     	baseDeConhecimento = new BaseDeConhecimento();
 	}
 
-	public void realizaJogada(BaseDeConhecimento baseDeConhecimento) throws Exception{
+	public void round(BaseDeConhecimento baseDeConhecimento) throws Exception{
 		
 		this.baseDeConhecimento = baseDeConhecimento;
 		if(baseDeConhecimento.getRodada()==JogadorEnum.HUMANO.getId()){

@@ -57,7 +57,7 @@ public class Jogo extends BaseDeConhecimento{
 	            baseDeConhecimento.setPosicao(Integer.parseInt(sc.nextLine()));
         	}
         	try{
-	            motorDeInferencia.realizaJogada(baseDeConhecimento);
+	            motorDeInferencia.round(baseDeConhecimento);
         	}catch(Exception e){
         		System.out.println(e.getMessage());
         	}finally{
