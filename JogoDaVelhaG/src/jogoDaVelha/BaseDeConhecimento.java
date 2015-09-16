@@ -7,12 +7,12 @@ public class BaseDeConhecimento {
 	private static final int REMOVEPOSICAO = 55;
 	private int tabuleiro[][] = new int[3][3];
 	private int base[][] = new int[3][3];
+	private String simboloMaquina;
+	private String simboloHumano;
+	private int posicao;
 	private int aux[] = new int[9];
 	private int rodada;
-    private int posicao;
-    private String simboloHumano;
-    private String simboloMaquina;
-
+	
     public BaseDeConhecimento() {
 		super();
 		inicializandoBase();
